@@ -1,0 +1,69 @@
+/* Mutterberger See */
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital@0;1&family=Roboto:wght@300&display=swap');
+
+body {
+    font-family: "Open Sans", sans-serif;
+}
+
+a {
+    color: black;
+}
+
+main {
+    max-width: 1200px;
+    margin: auto;
+}
+
+header {
+    display: grid;
+    grid-template-columns: 80% 20%;
+}
+
+header h2 {
+    margin: 0;
+}
+
+header nav {
+    text-align: right;
+    font-size: 0.9em;
+    font-weight: bold;
+    padding-top: 1em;
+}
+
+article {
+    margin-top: 0.5em;
+    border-top: 1px solid black;
+    margin-bottom: 0.5em;
+    border-bottom: 1px solid black;
+}
+
+#pulldown {
+    margin-bottom: 0.3em;
+}
+
+#map {
+    width: 100%;
+    height: 600px;
+    border: 1px solid gray;
+}
+
+#profile {
+    border: 1px solid gray;
+    margin-top: 0.3em;
+}
+
+.zustieg {
+    --ele-area: #993d3d;
+    --ele-bg: white;
+}
+
+footer {
+    font-family: "Roboto", sans-serif;
+    font-size: 0.9em;
+    margin-top: 0.5em;
+}
+
+footer nav {
+    display: inline-block;
+}
