@@ -65,4 +65,4 @@ let controlElevation = L.control.elevation({
     height: 300,
     theme: "zustieg"
 }).addTo(map);
-controlElevation.load("./data/mutterberger_see.gpx")
+controlElevation.load("./data/winklmoos.gpx")
